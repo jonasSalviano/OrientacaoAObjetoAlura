@@ -12,3 +12,4 @@ $autenticador = new Autenticador();
 $diretor = new Titular( new Cpf('659.485.498-85'),'Pablo', new Endereco('','','',''));
 
 $autenticador->tentaLogin($diretor, 'abcd');
+$variavelTeste = 121;
